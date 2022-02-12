@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents | HR</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Require css -->
+     <style>
+        .pattern {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 304 304' width='304' height='304'%3E%3Cpath fill='%23a0aec0' fill-opacity='0.1' d='M44.1 224a5 5 0 1 1 0 2H0v-2h44.1zm160 48a5 5 0 1 1 0 2H82v-2h122.1zm57.8-46a5 5 0 1 1 0-2H304v2h-42.1zm0 16a5 5 0 1 1 0-2H304v2h-42.1zm6.2-114a5 5 0 1 1 0 2h-86.2a5 5 0 1 1 0-2h86.2zm-256-48a5 5 0 1 1 0 2H0v-2h12.1zm185.8 34a5 5 0 1 1 0-2h86.2a5 5 0 1 1 0 2h-86.2zM258 12.1a5 5 0 1 1-2 0V0h2v12.1zm-64 208a5 5 0 1 1-2 0v-54.2a5 5 0 1 1 2 0v54.2zm48-198.2V80h62v2h-64V21.9a5 5 0 1 1 2 0zm16 16V64h46v2h-48V37.9a5 5 0 1 1 2 0zm-128 96V208h16v12.1a5 5 0 1 1-2 0V210h-16v-76.1a5 5 0 1 1 2 0zm-5.9-21.9a5 5 0 1 1 0 2H114v48H85.9a5 5 0 1 1 0-2H112v-48h12.1zm-6.2 130a5 5 0 1 1 0-2H176v-74.1a5 5 0 1 1 2 0V242h-60.1zm-16-64a5 5 0 1 1 0-2H114v48h10.1a5 5 0 1 1 0 2H112v-48h-10.1zM66 284.1a5 5 0 1 1-2 0V274H50v30h-2v-32h18v12.1zM236.1 176a5 5 0 1 1 0 2H226v94h48v32h-2v-30h-48v-98h12.1zm25.8-30a5 5 0 1 1 0-2H274v44.1a5 5 0 1 1-2 0V146h-10.1zm-64 96a5 5 0 1 1 0-2H208v-80h16v-14h-42.1a5 5 0 1 1 0-2H226v18h-16v80h-12.1zm86.2-210a5 5 0 1 1 0 2H272V0h2v32h10.1zM98 101.9V146H53.9a5 5 0 1 1 0-2H96v-42.1a5 5 0 1 1 2 0zM53.9 34a5 5 0 1 1 0-2H80V0h2v34H53.9zm60.1 3.9V66H82v64H69.9a5 5 0 1 1 0-2H80V64h32V37.9a5 5 0 1 1 2 0zM101.9 82a5 5 0 1 1 0-2H128V37.9a5 5 0 1 1 2 0V82h-28.1zm16-64a5 5 0 1 1 0-2H146v44.1a5 5 0 1 1-2 0V18h-26.1zm102.2 270a5 5 0 1 1 0 2H98v14h-2v-16h124.1zM242 149.9V160h16v34h-16v62h48v48h-2v-46h-48v-66h16v-30h-16v-12.1a5 5 0 1 1 2 0zM53.9 18a5 5 0 1 1 0-2H64V2H48V0h18v18H53.9zm112 32a5 5 0 1 1 0-2H192V0h50v2h-48v48h-28.1zm-48-48a5 5 0 0 1-9.8-2h2.07a3 3 0 1 0 5.66 0H178v34h-18V21.9a5 5 0 1 1 2 0V32h14V2h-58.1zm0 96a5 5 0 1 1 0-2H137l32-32h39V21.9a5 5 0 1 1 2 0V66h-40.17l-32 32H117.9zm28.1 90.1a5 5 0 1 1-2 0v-76.51L175.59 80H224V21.9a5 5 0 1 1 2 0V82h-49.59L146 112.41v75.69zm16 32a5 5 0 1 1-2 0v-99.51L184.59 96H300.1a5 5 0 0 1 3.9-3.9v2.07a3 3 0 0 0 0 5.66v2.07a5 5 0 0 1-3.9-3.9H185.41L162 121.41v98.69zm-144-64a5 5 0 1 1-2 0v-3.51l48-48V48h32V0h2v50H66v55.41l-48 48v2.69zM50 53.9v43.51l-48 48V208h26.1a5 5 0 1 1 0 2H0v-65.41l48-48V53.9a5 5 0 1 1 2 0zm-16 16V89.41l-34 34v-2.82l32-32V69.9a5 5 0 1 1 2 0zM12.1 32a5 5 0 1 1 0 2H9.41L0 43.41V40.6L8.59 32h3.51zm265.8 18a5 5 0 1 1 0-2h18.69l7.41-7.41v2.82L297.41 50H277.9zm-16 160a5 5 0 1 1 0-2H288v-71.41l16-16v2.82l-14 14V210h-28.1zm-208 32a5 5 0 1 1 0-2H64v-22.59L40.59 194H21.9a5 5 0 1 1 0-2H41.41L66 216.59V242H53.9zm150.2 14a5 5 0 1 1 0 2H96v-56.6L56.6 162H37.9a5 5 0 1 1 0-2h19.5L98 200.6V256h106.1zm-150.2 2a5 5 0 1 1 0-2H80v-46.59L48.59 178H21.9a5 5 0 1 1 0-2H49.41L82 208.59V258H53.9zM34 39.8v1.61L9.41 66H0v-2h8.59L32 40.59V0h2v39.8zM2 300.1a5 5 0 0 1 3.9 3.9H3.83A3 3 0 0 0 0 302.17V256h18v48h-2v-46H2v42.1zM34 241v63h-2v-62H0v-2h34v1zM17 18H0v-2h16V0h2v18h-1zm273-2h14v2h-16V0h2v16zm-32 273v15h-2v-14h-14v14h-2v-16h18v1zM0 92.1A5.02 5.02 0 0 1 6 97a5 5 0 0 1-6 4.9v-2.07a3 3 0 1 0 0-5.66V92.1zM80 272h2v32h-2v-32zm37.9 32h-2.07a3 3 0 0 0-5.66 0h-2.07a5 5 0 0 1 9.8 0zM5.9 0A5.02 5.02 0 0 1 0 5.9V3.83A3 3 0 0 0 3.83 0H5.9zm294.2 0h2.07A3 3 0 0 0 304 3.83V5.9a5 5 0 0 1-3.9-5.9zm3.9 300.1v2.07a3 3 0 0 0-1.83 1.83h-2.07a5 5 0 0 1 3.9-3.9zM97 100a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-48 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 96a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-144a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm96 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM49 36a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-32 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM33 68a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 240a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm80-176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 48a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm112 176a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-16 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 180a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0-32a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM17 84a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm32 64a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm16-16a3 3 0 1 0 0-6 3 3 0 0 0 0 6z'%3E%3C/path%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+
+<!-- Section 1 -->
+<section class="w-full px-6 pb-12 antialiased bg-white">
+  <div class="mx-auto max-w-7xl">
+      <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
+          <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-gray-200 md:overflow-visible lg:justify-center sm:px-4 md:px-2">
+              <div class="flex items-center justify-start w-1/4 h-full pr-4">
+                    <a href="index.html" class="inline-block py-4 md:py-0"><h2 class="text-xl font-black leading-snug tracking-widest  uppercase block w-full px-6 py-3  text-center text-white border border-pink-500 rounded-lg ">
+                      <span class="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+                          Botx | HR
+                        </span></h2>
+                    </a>
+              </div>
+              <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-gray-900 bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
+                  <div class="flex-col w-full h-auto overflow-hidden bg-white rounded-lg md:bg-transparent md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
+                      
+                      <div class="flex flex-col items-start justify-center w-full space-x-6 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+                          <a class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center" target="_blank" href="https://botx.co.in/">Botx</a>
+                          <a class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-indigo-600 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center" href="document.html">Documents</a>
+                          <a class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"  href="work.html">Works</a>
+                          <a class="inline-block w-full py-2 mx-0 font-medium text-left text-gray-700 md:w-auto md:px-0 md:mx-2 hover:text-indigo-600 lg:mx-3 md:text-center"   href="roadmap.html">Roadmap</a>
+                          <a class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-indigo-600 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center" target="_blank"  href="holiday.html">Holidays</a>
+                        </div>
+
+                      <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
+                        <div class="items-center hidden space-x-4 lg:flex">
+                          <a class="px-5 py-2 text-sm font-medium text-gray-600 rounded-lg  
+                          block w-full text-gray-900 border border-blue-600 rounded sm:w-auto hover:text-white hover:bg-blue-600 active:bg-blue-500 focus:outline-none focus:ring" target="_blank" href="https://folkflow.com/co/botxautomations"> Job Board </a>
+                          &nbsp; </div>
+                   
+                        <div class="items-center hidden space-x-4 lg:flex">
+                          <a class="px-5 py-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-lg" target="_blank" href="adminLogin.html"> Admin Log in </a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 bg-white rounded-full cursor-pointer md:hidden hover:bg-gray-100">
+                  <svg class="w-6 h-6 text-gray-700" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" x-cloak="">
+                      <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+                  <svg class="w-6 h-6 text-gray-700" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" x-cloak="">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                  </svg>
+              </div>
+          </div>
+      </nav>
+      <br>
+
+<div class="inset-x-0 top-0 pt-2 pb-9 max-w-3xl mx-auto text-center">
+    <h1 class="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-blue-300 via-red-500 to-yellow-600">
+      Policies & Documents.
+    </h1>
+</div>
+
+<!--
+  This component uses @tailwindcss/forms
+
+  yarn add @tailwindcss/forms
+  npm install @tailwindcss/forms
+
+  plugins: [require('@tailwindcss/forms')]
+-->
+
+<div class="sm:items-center sm:flex sm:justify-between">
+  <div class="flex space-x-1 sm:justify-end sm:order-last">
+    <button
+      type="button"
+      class="p-1.5 text-gray-700 rounded bg-gray-50"
+    >
+      <span class="sr-only">
+        View as List
+      </span>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+      </svg>
+    </button>
+
+    <button
+      type="button"
+      class="p-1.5 text-gray-700 rounded bg-gray-50"
+    >
+      <span class="sr-only">
+        View as Grid
+      </span>
+
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+      </svg>
+    </button>
+  </div>
+
+  <form
+    action=""
+    class="flex mt-2 sm:mt-0"
+  >
+    <div>
+      <label
+        for="FilterBy"
+        class="sr-only"
+      >
+        Filter
+      </label>
+
+      <select
+        id="FilterBy"
+        name="filter_by"
+        class="text-sm border-gray-100 rounded"
+      >
+        <option readonly>Filter</option>
+        <option value="health">Policy</option>
+        <option value="fitness">Forms</option>
+        <option value="eating">Templates</option>
+      </select>
+    </div>
+
+    <div class="ml-4">
+      <label
+        for="SortBy"
+        class="sr-only"
+      >
+        Sort
+      </label>
+
+      <select
+        id="SortBy"
+        name="sort_by"
+        class="text-sm border-gray-100 rounded"
+      >
+        <option readonly>Sort</option>
+        <option value="title-asc">Title, A-Z</option>
+        <option value="title-desc">Title, Z-A</option>
+      </select>
+    </div>
+  </form>
+</div>
+<br>
+<!--Heading-->
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-2 mx-auto">
+      <div class="flex flex-wrap -m-2">
+       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <a href="https://drive.google.com/u/0/uc?id=12Lr_hJUEdZLa1C1qVxAbf67e3gLk9mmo&export=download">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Code of Conduct</h2>
+              <p class="text-gray-500">Policy 2021</p>
+            </div>
+          </div></a>
+        </div>
+
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <a href="https://drive.google.com/u/0/uc?id=176VP73Vw-jlCNLDjvZE7A9BGk-Phbu9A&export=download">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+              <div class="flex-grow">
+                <h2 class="text-gray-900 title-font font-medium">Code of Ethics Policy</h2>
+                <p class="text-gray-500">Policy 2021</p>
+              </div>
+            </div></a>
+          </div>
+
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <a href="https://drive.google.com/u/0/uc?id=1dt97q59PT0u3IVV8-HMZlBsIEaHW7StS&export=download">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">Equal Employment Opportunity Policy</h2>
+                  <p class="text-gray-500">Policy 2021</p>
+                </div>
+              </div></a>
+            </div>
+        
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <a href="https://drive.google.com/u/0/uc?id=1rNCJO8h1sXufB8tKkSWuP88timyIKuQt&export=download">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">Occupational Health and Safety Policy</h2>
+                    <p class="text-gray-500">Policy 2021</p>
+                  </div>
+                </div></a>
+              </div>
+      
+              <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <a href="https://drive.google.com/u/0/uc?id=13CSN8kNyXjxzEJ6KkWU28CcUcc7t2FRz&export=download">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Intern Policy</h2>
+                      <p class="text-gray-500">Policy 2021</p>
+                    </div>
+                  </div></a>
+                </div>
+      
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <a href="https://drive.google.com/u/0/uc?id=1pCY98n1maHw9l_96M7ktcdR-fvD_ead0&export=download">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                      <div class="flex-grow">
+                        <h2 class="text-gray-900 title-font font-medium">Corporate Social Responsibility Policy</h2>
+                        <p class="text-gray-500">Policy 2021</p>
+                      </div>
+                    </div></a>
+                  </div>
+<!--6 cards over-->
+                  <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <a href="https://drive.google.com/u/0/uc?id=1m74Em3A9P73m4j3vEDfY4UmnOznOLeEA&export=download">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Confidentiality Policy</h2>
+                          <p class="text-gray-500">Policy 2021</p>
+                        </div>
+                      </div></a>
+                    </div>
+            
+                    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                      <a href="https://drive.google.com/u/0/uc?id=1w-Lj90v9g7xg5VsHxFXbIXx6RbOi9Tf5&export=download">
+                        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                          <div class="flex-grow">
+                            <h2 class="text-gray-900 title-font font-medium">Employee Recruitment and Selection Policy</h2>
+                            <p class="text-gray-500">Policy 2021</p>
+                          </div>
+                        </div></a>
+                      </div>
+            
+                      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                        <a href="https://drive.google.com/u/0/uc?id=1V8vPoyqIk83-P7YKECptLEBV91-xa6r0&export=download">
+                          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                            <div class="flex-grow">
+                              <h2 class="text-gray-900 title-font font-medium">Data Protection Policy</h2>
+                              <p class="text-gray-500">Policy 2021</p>
+                            </div>
+                          </div></a>
+                        </div>
+                    
+                        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                          <a href="https://drive.google.com/u/0/uc?id=1OmnI56hsv0lMQ-r7aVLUknYokgnVJ5o_&export=download">
+                            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                              <div class="flex-grow">
+                                <h2 class="text-gray-900 title-font font-medium">Conflict of Interest Policy</h2>
+                                <p class="text-gray-500">Policy 2021</p>
+                              </div>
+                            </div></a>
+                          </div>
+                  
+                          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                            <a href="https://drive.google.com/u/0/uc?id=1FIZ34IYwNKZ_3z3PoduTDhZrS_2qPYvZ&export=download">
+                              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                                <div class="flex-grow">
+                                  <h2 class="text-gray-900 title-font font-medium">Employee Training and Development Policy</h2>
+                                  <p class="text-gray-500">Policy 2021</p>
+                                </div>
+                              </div></a>
+                            </div>
+                  
+                            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                              <a href="https://drive.google.com/u/0/uc?id=1TEtAkgXxAlQuC6dsxWACtVOyJIKwogzc&export=download">
+                                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                                  <div class="flex-grow">
+                                    <h2 class="text-gray-900 title-font font-medium">Work from Home Policy</h2>
+                                    <p class="text-gray-500">Policy 2021</p>
+                                  </div>
+                                </div></a>
+                              </div>
+        <!--6 cards over-->
+        <!--6 cards over-->
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <a href="https://drive.google.com/u/0/uc?id=1nJv27YTCJ0CEXdlapy6F1eercwhH4tDy&export=download">
+            <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+              <div class="flex-grow">
+                <h2 class="text-gray-900 title-font font-medium">Internal Hiring Process Policy</h2>
+                <p class="text-gray-500">Policy 2021</p>
+              </div>
+            </div></a>
+          </div>
+  
+          <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <a href="https://drive.google.com/u/0/uc?id=1Ri_rF3VNY4VSD6KsuGrhdGh3MijsLXkK&export=download">
+              <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                <div class="flex-grow">
+                  <h2 class="text-gray-900 title-font font-medium">New Hire Policy</h2>
+                  <p class="text-gray-500">Policy 2021</p>
+                </div>
+              </div></a>
+            </div>
+  
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <a href="https://drive.google.com/u/0/uc?id=122QGPWTEPoBM78K_iMG90dloysZ89E4-&export=download">
+                <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                  <div class="flex-grow">
+                    <h2 class="text-gray-900 title-font font-medium">Workplace Harassment Policy</h2>
+                    <p class="text-gray-500">Policy 2021</p>
+                  </div>
+                </div></a>
+              </div>
+          
+              <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                <a href="https://drive.google.com/u/0/uc?id=15F0sF2BqISeYq9d7MG4wwyJuXHQRFRIP&export=download">
+                  <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                    <div class="flex-grow">
+                      <h2 class="text-gray-900 title-font font-medium">Employee Performance Review Policy</h2>
+                      <p class="text-gray-500">Policy 2021</p>
+                    </div>
+                  </div></a>
+                </div>
+        
+                <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                  <a href="https://drive.google.com/u/0/uc?id=1Yj9w2uMXBzM2J0pIGB3i0HaX36jhA5AF&export=download">
+                    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                      <div class="flex-grow">
+                        <h2 class="text-gray-900 title-font font-medium">Employee Wellness Program Policy</h2>
+                        <p class="text-gray-500">Policy 2021</p>
+                      </div>
+                    </div></a>
+                  </div>
+        
+                  <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+                    <a href="https://drive.google.com/u/0/uc?id=1IeKnSH0913DkdCra0_uQIiyWsEq5-pkz&export=download">
+                      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8WXb2EQ3ruhh2Ru6a7cK_biSFxn_HBT3EDA&usqp=CAU" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+                        <div class="flex-grow">
+                          <h2 class="text-gray-900 title-font font-medium">Termination of Employment Policy</h2>
+                          <p class="text-gray-500">Policy 2021</p>
+                        </div>
+                      </div></a>
+                    </div>
+<!--6 cards over-->
+
+<!--form cards strt-->
+<div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+  <a href="https://drive.google.com/u/0/uc?id=1zK69aLjFvdVj_7KaHyfkBZpUJo2J2WnF&export=download">
+    <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+      <img src="http://lifeisactive.com/wp-content/uploads/2016/02/document_icon.png" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+      <div class="flex-grow">
+        <h2 class="text-gray-900 title-font font-medium">Joining Checklist - Intern</h2>
+        <p class="text-gray-500">Form-05</p>
+      </div>
+    </div></a>
+  </div>
+
+  <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+    <a href="https://drive.google.com/u/0/uc?id=1PxTP-nbScvhvF7vMXJ_mGHQjnUMnaCwL&export=download">
+      <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+        <img src="http://lifeisactive.com/wp-content/uploads/2016/02/document_icon.png" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+        <div class="flex-grow">
+          <h2 class="text-gray-900 title-font font-medium">Joining Checklist - Employee</h2>
+          <p class="text-gray-500">Form-04</p>
+        </div>
+      </div></a>
+    </div>
+
+    <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+      <a href="https://drive.google.com/u/0/uc?id=1Zq4ZgiAHsZDAsFcGR_ttQM3Oc6jiYx2S&export=download">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <img src="http://lifeisactive.com/wp-content/uploads/2016/02/document_icon.png" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">Offboarding Checklist</h2>
+            <p class="text-gray-500">Form-09</p>
+          </div>
+        </div></a>
+      </div>
+
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <a href="https://drive.google.com/u/0/uc?id=1TxnVCrGYtnR2h5CEFoatb6fyhazaE_xR&export=download">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img src="http://lifeisactive.com/wp-content/uploads/2016/02/document_icon.png" alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/80x80">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Attendance &  Absentee Record</h2>
+              <p class="text-gray-500">Form-10</p>
+            </div>
+          </div></a>
+        </div>
+
+
+<!--form cards over-->
+      </div>
+    </div>
+  </section>
+     
+      
+</body>
+</html>
